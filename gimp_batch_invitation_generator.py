@@ -81,7 +81,7 @@ register(
     "<Image>/Filters/Python-Fu/Batch Invitation Generator...",
     "RGB*, GRAY*",
     [
-        (PF_STRING, "layer_name", "Layer Name (Default: NAME_LAYER)", "NAME_LAYER"),
+        (PF_STRING, "layer_name", "Layer Name", "NAME_LAYER"),
         (PF_STRING, "names", "Comma-separated names", "John,Doe,Jane"),
         (PF_DIRNAME, "output_folder", "Output Folder", ""),
         (PF_FONT, "font_name", "Font (Optional, uses layer's font if not specified)", ""),
