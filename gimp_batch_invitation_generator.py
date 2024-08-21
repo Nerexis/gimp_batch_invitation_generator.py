@@ -75,8 +75,8 @@ register(
     "Text Style Information:\n"
     "If no font, size, or color is specified, the script will use the current style of the text layer named 'NAME_LAYER' by default.\n"
     "Specify a custom font, size, or color to override the layer's current settings.",
-    "Your Name",
-    "Your Name",
+    "Damian Winnicki",
+    "Damian Winnicki",
     "2024",
     "<Image>/Filters/Python-Fu/Batch Invitation Generator...",
     "RGB*, GRAY*",
