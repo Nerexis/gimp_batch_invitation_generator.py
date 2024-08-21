@@ -1,3 +1,8 @@
+# GIMP Batch Invitation Generator
+# Author: Damian Winnicki
+# GitHub: https://github.com/Nerexis/gimp_batch_invitation_generator.py
+# Email: nerexis@gmail.com
+
 from gimpfu import *
 import os
 import platform
@@ -65,7 +70,7 @@ def gimp_batch_invitation_generator(image, drawable, layer_name, names, output_f
 
 register(
     "python_fu_gimp_batch_invitation_generator",
-    "Batch Export Invitation Cards with Names",
+    "Batch Export Invitation Cards with Names (by Damian Winnicki nerexis@gmail.com)",
     "Automates the process of creating multiple invitation cards with different names and saving them as separate JPG files.\n"
     "Text Style Information:\n"
     "If no font, size, or color is specified, the script will use the current style of the text layer named 'NAME_LAYER' by default.\n"
